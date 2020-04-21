@@ -1,0 +1,1 @@
+web: gunicorn flair_detector.wsgi
