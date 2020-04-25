@@ -6,11 +6,11 @@ from nltk.corpus import stopwords
 
 """### Variable Declarations and Utility Functions"""
 
-reddit = praw.Reddit(client_id = 'R2GnttAZv61_mA',
-                     client_secret = 'BHX_WYSAzRAKlO1MDH56NeHw18Q',
-                     user_agent = 'MIDAS',
-                     username = 'dawjon',
-                     password = 'Rapid@143')
+reddit = praw.Reddit(client_id = '#',
+                     client_secret = '#',
+                     user_agent = '#',
+                     username = '#',
+                     password = '#')
 with open('prep/LR.pkl', 'rb') as ifp:
     loaded_model = pickle.load(ifp)
 
